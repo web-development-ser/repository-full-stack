@@ -1,0 +1,25 @@
+/* CSS através do Bootstrap */
+/* Container - 00 */
+.navbar-toggler:hover {
+  box-shadow: 0px 0px 0px 5px auto;
+  transition: ease-in-out 0.8s;
+}
+.navbar {
+  background: linear-gradient(157deg, #141E30, #243B55);
+}
+.d-flex {
+  padding-bottom: 0.6rem;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.s-logo {
+  width: 57px;
+  height: auto;
+  padding-right: 16px;
+}
+.navbar-brand:hover {
+  color: silver;
+}

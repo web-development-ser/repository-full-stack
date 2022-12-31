@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gemunu+Libre&family=Play&family=Signika&family=Syne+Mono&display=swap');
+.forma {
+  padding: 5rem 1rem;
+}
+.forma h3 {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.7rem;
+}
+.forma p {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.pstj {
+  padding: 0 1rem;
+}
+.card {
+  border: 1px solid silver;
+  padding: 1px;
+}
+.card-header {
+  background: linear-gradient(173deg, #16222a, #3a6073)
+}
+.card-header {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+.card-body {
+  font-family: 'Signika', sans-serif;
+  font-size: 1rem;
+  background: #3a6073;
+  color: #ffffff;
+}
+.blockquote-footer {
+  color: silver;
+}
+.card {
+  margin: 2rem;
+}
+em {
+  color: silver ;
+}

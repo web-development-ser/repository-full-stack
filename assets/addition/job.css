@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gemunu+Libre&family=Play&family=Signika&family=Syne+Mono&display=swap');
+
+body {
+  /*background: linear-gradient(80deg, #1D4350, #A43931)*/
+  background: #1D4350;
+  color: white;
+}
+.navbar-toggler:hover {
+  box-shadow: 0px 0px 0px 5px auto;
+  transition: ease-in-out 0.8s;
+}
+.navbar {
+  background: linear-gradient(157deg, #1D4350, #A43931);
+}
+.d-flex {
+  padding-bottom: 0.6rem;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navbar-brand {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.8rem;
+  color: white;
+}
+.nav-link, .form-control {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.2rem;
+}
+.s-logo {
+  width: 57px;
+  height: auto;
+  padding-right: 16px;
+}
+.info {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.3rem;
+  color: white;
+  margin: 2.7rem 2.3rem;
+}
+.info p {
+  text-align: center;
+}
+.sabe, .hist {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.7rem;
+  color: #ffffff;
+  margin-left: 1.2rem;
+}
+.list-group {
+  margin: 2rem;
+  padding: 0.3rem;
+  border-left-style: solid;
+  border-left-color: silver;
+  border-left-width: 2px;
+}
+.list-group-item {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.3rem;
+  color: black;
+  background: silver;
+}
+.text {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.2rem;
+  margin-left: 1.2rem;
+  margin: 7rem 1.2rem;
+}
+.span {
+  color: silver;
+  font-family: 'Signika', sans-serif;
+  font-size: 1.2rem;
+}

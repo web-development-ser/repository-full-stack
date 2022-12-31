@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gemunu+Libre&family=Play&family=Signika&family=Syne+Mono&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Acima fontes e códigos da raiz */
+/*body {
+  background: #243B55;
+}*/
+/* Fontes que foram utilizadas*/
+.navbar-brand {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.8rem;
+  color: white;
+}
+.nav-link, .form-control {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.2rem;
+}
+.dropdown-item {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.1rem;
+}
+.bio {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.7rem;
+}
+.insta-name {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.reconh-a, .vivenc-card {
+  margin: 0 16px;
+  padding-right: 0.3rem;
+}
+.reconh-a {
+  margin-bottom: 7rem;
+}
+.reconh-a:hover {
+  border-bottom-color: silver;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-right-color: silver;
+  border-right-width: 2px;
+  border-right-style: solid;
+  transition: 2.1s;
+}
+.reconh, .vivenc-card, .exp {
+  font-family: 'Signika', sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+.reconh-bio {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.accordion-button {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.2rem;
+}
+.show {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.1rem;
+}
+.card {
+  font-family: 'Signika', sans-serif;
+}
+.link-pesq {
+  text-decoration: none;
+  color: silver;
+}
+.card-text {
+  font-style: italic;
+}
+
+.silver-span {
+  color: silver;
+}
+.silver_uno-span {
+  font-weight: bold;
+}

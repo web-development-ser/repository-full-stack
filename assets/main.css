@@ -1,0 +1,163 @@
+/* Bio 01 */
+.bio {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+}
+.bio .bio-text {
+  padding-top: 3rem;
+}
+.bio .bio-text-two {
+  font-size: 1.3rem;
+  color: silver;
+}
+/* root - ativo, não usado */
+:root {
+  --font-style: 'Nunito Sans', sans-serif;
+}
+/* Corpo completamento, aquivo source.css */
+body {
+  font-family: var(--font-style);
+  width: 100%;
+  background: #053A3D;
+}
+/* Bio 01 */
+.insta-button {
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 90px 30px;
+  margin-bottom: 170px;
+  background: #1A2929;
+}
+.insta-name {
+  display: block;
+  padding: 20px 50px;
+}
+.insta-name:hover {
+  color: silver;
+}
+.insta-button::before,
+.insta-button::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #54E6E7;
+}
+.insta-name::before,
+.insta-name::after {
+  content: "";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  transition: all 0.3s linear;
+  background: #54E6E7;
+}
+.insta-button:hover::before,
+.insta-button:hover::after {
+  width: 100%;
+}
+.insta-button:hover .insta-name::before,
+ .insta-button:hover .insta-name::after {
+  height: 100%;
+}
+.insta-button::after {
+  right: 0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+.insta-button .insta-name::after {
+  right: 0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+.insta-button::before {
+  left: 0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+.insta-button .insta-name::before {
+  left: 0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+
+.accordion-button {
+  background: linear-gradient(157deg, #141E30, #243B55);
+  color: white;
+}
+.accordion, .exp {
+  margin: 0.9rem;
+}
+.accordion-item {
+  background: silver;
+}
+
+/* Info 03 */
+.vivenc-card {
+  border-bottom-style: solid;
+  border-bottom-color: blue;
+  border-bottom-width: 1px;
+}
+.vivenc {
+  border: 1px solid silver;
+  margin: 0.3rem;
+  margin-bottom: 5.8rem;
+  border-radius: 20px;
+  padding: 1.2rem 0.3rem;
+}
+
+.card /*col*/ {
+  border-width: 2px;
+  background: #1A2929;
+  color: white;
+}
+.card-header {
+  background: #42445A;
+}
+
+
+/* Vermelho - card */
+.border-danger:hover {
+  border: solid 2px;
+  transition: 0.7s;
+}
+.border-danger {
+  border: solid 0px;
+}
+/* Azul - card */
+.border-primary:hover {
+  border: solid 2px;
+  transition: 0.7s;
+}
+.border-primary {
+  border: solid 0px;
+}
+/* Laranja - card */
+.border-warning:hover {
+  border: solid 2px;
+  transition: 0.7s;
+}
+.border-warning {
+  border: solid 0px;
+}
+/* Verde - card */
+.border-success:hover {
+  border: solid 2px;
+  transition: 0.7s;
+}
+.border-success {
+  border: solid 0px;
+}
+.link-pesq {
+  /* Sem valor... */
+}
+.card-margin {
+  margin-bottom: 3rem;
+}

@@ -1,0 +1,37 @@
+.fill {
+  background: #42445A;
+  color: red;
+}
+.fill-two {
+  padding: 3rem 0;
+  /*background: linear-gradient(157deg, #141E30, #243B55);*/
+  border-bottom-style: solid;
+  border-bottom-color: #42445A;
+  border-bottom-width: 3px;
+}
+footer {
+  background: linear-gradient(157deg, #141E30, #243B55);
+}
+
+.fi {
+  background-color: #1A2929;
+  padding: 17px 17px;
+  padding-bottom: 13px;
+  border-radius: 17%;
+  color: white;
+}
+.pers-u .fi:hover {
+  transition: 0.3s;
+  border: solid 0.2rem #741F76;
+  color: #741F76;
+}
+.pers-s .fi:hover {
+  transition: 0.3s;
+  border: solid 0.2rem #0C42FF;
+  color: #0C42FF;
+}
+.pers-t .fi:hover {
+  transition: 0.3s;
+  border: solid 0.2rem silver;
+  color: silver;
+}
